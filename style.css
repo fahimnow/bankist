@@ -35,6 +35,7 @@ body {
 /* GENERAL ELEMENTS */
 .section {
   padding: 15rem 3rem;
+  scroll-margin-top: 9rem;
   border-top: 1px solid #ddd;
 
   transition:
@@ -127,6 +128,8 @@ img {
 /* nav and stickly class at the same time */
 .nav.sticky {
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: rgba(255, 255, 255, 0.95);
 }
 
@@ -699,7 +702,7 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .section {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 7rem;
   }
 
   .nav {
